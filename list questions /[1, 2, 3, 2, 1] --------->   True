@@ -1,0 +1,20 @@
+Check if the list is a palindrome.
+
+Input:
+
+[1, 2, 3, 2, 1]
+
+
+Output:
+
+True
+
+
+
+li = [1, 2, 3, 2, 1]
+output = True
+for i in range(len(li)):
+    if li[i] != li[len(li)-1-i]:
+        output = False
+        break 
+print(output)
