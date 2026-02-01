@@ -1,0 +1,4 @@
+li = [3, 2, 3]
+for i in set(li):
+    if li.count(i) > len(li)//2:
+        print(i)
