@@ -1,0 +1,11 @@
+s = "swiss"
+dici = {}
+for i in s:
+    if i not in dici:
+        dici[i] = 1
+    else:
+        dici[i] += 1
+for i in dici:
+    if dici[i] == 1:
+        print(i)
+        break 
