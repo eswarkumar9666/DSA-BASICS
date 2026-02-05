@@ -5,5 +5,5 @@ for i in s:
         dici[i] += 1
     else:
         dici[i] = 1
-for i, count in dici.items():
-    print(f"{i}:{count}")
+for key, values in dici.items():
+    print(f"{key}:{values}")
