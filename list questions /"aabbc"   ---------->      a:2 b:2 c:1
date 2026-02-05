@@ -1,0 +1,9 @@
+s = "aabbc"
+dici = {}
+for i in s:
+    if i in dici:
+        dici[i] += 1
+    else:
+        dici[i] = 1
+for i, count in dici.items():
+    print(f"{i}:{count}")
