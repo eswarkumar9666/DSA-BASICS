@@ -1,0 +1,8 @@
+s = "hello world"
+final = ""
+ans = s.split()
+
+for i in ans:
+    final += i[::-1] + " "
+
+print(final.strip())
