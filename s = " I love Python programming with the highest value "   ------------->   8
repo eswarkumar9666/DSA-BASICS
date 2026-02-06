@@ -1,0 +1,7 @@
+s = " I love Python programming with the highest value "
+s = s.strip()       # if we have any spaces at the start and end of the sentance strip() will remove the spaces
+ans = 0
+for i in s:
+    if i == " ":
+        ans += 1
+print(ans+1)
