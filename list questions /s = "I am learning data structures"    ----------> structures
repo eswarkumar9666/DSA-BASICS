@@ -1,0 +1,7 @@
+s = "I am learning data structures"
+ans = s.split()
+longest = s[0]
+for i in ans:
+    if len(i) > len(longest):
+        longest = i
+print(longest)
