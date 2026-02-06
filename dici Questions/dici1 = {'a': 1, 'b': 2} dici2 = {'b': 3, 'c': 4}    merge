@@ -1,0 +1,4 @@
+dici1 = {'a': 1, 'b': 2}
+dici2 = {'b': 3, 'c': 4}
+final = dici1 | dici2
+print(final)
