@@ -1,0 +1,6 @@
+data = {'a': 10, 'b': None, 'c': 5}
+dici = {}
+for key, values in data.items():
+    if values != None:
+        dici[key] = values
+print(dici)
